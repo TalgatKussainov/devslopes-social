@@ -13,12 +13,16 @@
 		E59B3BFD1E250E96007763F8 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B3BFC1E250E96007763F8 /* RoundBtn.swift */; };
 		E59B3BFF1E251019007763F8 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B3BFE1E251019007763F8 /* FancyField.swift */; };
 		E59B3C011E2511E4007763F8 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B3C001E2511E4007763F8 /* FancyBtn.swift */; };
+		E59FC3CD1E25463B0015E02E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E59FC3CC1E25463B0015E02E /* GoogleService-Info.plist */; };
+		E59FC3CF1E265E700015E02E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FC3CE1E265E700015E02E /* FeedVC.swift */; };
+		E59FC3D11E2674C00015E02E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FC3D01E2674C00015E02E /* CircleView.swift */; };
+		E59FC3D31E267C700015E02E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FC3D21E267C700015E02E /* PostCell.swift */; };
+		E59FC3D61E27611A0015E02E /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FC3D51E27611A0015E02E /* DataServices.swift */; };
 		E5C00E8D1E23E5D200C5CC7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C00E8C1E23E5D200C5CC7C /* AppDelegate.swift */; };
 		E5C00E8F1E23E5D200C5CC7C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C00E8E1E23E5D200C5CC7C /* SignInVC.swift */; };
 		E5C00E921E23E5D200C5CC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C00E901E23E5D200C5CC7C /* Main.storyboard */; };
 		E5C00E941E23E5D200C5CC7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C00E931E23E5D200C5CC7C /* Assets.xcassets */; };
 		E5C00E971E23E5D200C5CC7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C00E951E23E5D200C5CC7C /* LaunchScreen.storyboard */; };
-		E5C00E9F1E23E61200C5CC7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C00E9E1E23E61200C5CC7C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,11 @@
 		E59B3BFE1E251019007763F8 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		E59B3C001E2511E4007763F8 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		E59B3C021E25299F007763F8 /* Devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Devslopes-social.entitlements"; sourceTree = "<group>"; };
+		E59FC3CC1E25463B0015E02E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E59FC3CE1E265E700015E02E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		E59FC3D01E2674C00015E02E /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E59FC3D21E267C700015E02E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E59FC3D51E27611A0015E02E /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		E5C00E891E23E5D200C5CC7C /* Devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C00E8C1E23E5D200C5CC7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5C00E8E1E23E5D200C5CC7C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -38,7 +47,6 @@
 		E5C00E931E23E5D200C5CC7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C00E961E23E5D200C5CC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5C00E981E23E5D200C5CC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5C00E9E1E23E61200C5CC7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,8 @@
 				E59B3BFC1E250E96007763F8 /* RoundBtn.swift */,
 				E59B3BFE1E251019007763F8 /* FancyField.swift */,
 				E59B3C001E2511E4007763F8 /* FancyBtn.swift */,
+				E59FC3D01E2674C00015E02E /* CircleView.swift */,
+				E59FC3D21E267C700015E02E /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -83,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				E5C00E8E1E23E5D200C5CC7C /* SignInVC.swift */,
+				E59FC3CE1E265E700015E02E /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -93,6 +104,14 @@
 				E59B3BFA1E250CE5007763F8 /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		E59FC3D41E2760FC0015E02E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E59FC3D51E27611A0015E02E /* DataServices.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		E5C00E801E23E5D100C5CC7C = {
@@ -116,6 +135,7 @@
 		E5C00E8B1E23E5D200C5CC7C /* Devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				E59FC3D41E2760FC0015E02E /* Services */,
 				E59B3C021E25299F007763F8 /* Devslopes-social.entitlements */,
 				E59B3BF91E250CD0007763F8 /* Util */,
 				E54C68EC1E23E9520055BCAC /* Model */,
@@ -126,7 +146,7 @@
 				E5C00E931E23E5D200C5CC7C /* Assets.xcassets */,
 				E5C00E951E23E5D200C5CC7C /* LaunchScreen.storyboard */,
 				E5C00E981E23E5D200C5CC7C /* Info.plist */,
-				E5C00E9E1E23E61200C5CC7C /* GoogleService-Info.plist */,
+				E59FC3CC1E25463B0015E02E /* GoogleService-Info.plist */,
 			);
 			path = "Devslopes-social";
 			sourceTree = "<group>";
@@ -176,6 +196,7 @@
 					E5C00E881E23E5D100C5CC7C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 28U48T6852;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -209,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5C00E971E23E5D200C5CC7C /* LaunchScreen.storyboard in Resources */,
-				E5C00E9F1E23E61200C5CC7C /* GoogleService-Info.plist in Resources */,
+				E59FC3CD1E25463B0015E02E /* GoogleService-Info.plist in Resources */,
 				E5C00E941E23E5D200C5CC7C /* Assets.xcassets in Resources */,
 				E5C00E921E23E5D200C5CC7C /* Main.storyboard in Resources */,
 			);
@@ -270,13 +291,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59FC3D11E2674C00015E02E /* CircleView.swift in Sources */,
 				E59B3BFF1E251019007763F8 /* FancyField.swift in Sources */,
 				E5C00E8F1E23E5D200C5CC7C /* SignInVC.swift in Sources */,
 				E59B3BFD1E250E96007763F8 /* RoundBtn.swift in Sources */,
 				E5C00E8D1E23E5D200C5CC7C /* AppDelegate.swift in Sources */,
+				E59FC3D61E27611A0015E02E /* DataServices.swift in Sources */,
+				E59FC3CF1E265E700015E02E /* FeedVC.swift in Sources */,
 				E59B3BF81E250C57007763F8 /* FancyView.swift in Sources */,
 				E59B3BFB1E250CE5007763F8 /* Constants.swift in Sources */,
 				E59B3C011E2511E4007763F8 /* FancyBtn.swift in Sources */,
+				E59FC3D31E267C700015E02E /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

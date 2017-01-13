@@ -18,6 +18,7 @@
 		E59FC3D11E2674C00015E02E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FC3D01E2674C00015E02E /* CircleView.swift */; };
 		E59FC3D31E267C700015E02E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FC3D21E267C700015E02E /* PostCell.swift */; };
 		E59FC3D61E27611A0015E02E /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FC3D51E27611A0015E02E /* DataServices.swift */; };
+		E5B53EB11E2918E6001930D7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B53EB01E2918E6001930D7 /* Post.swift */; };
 		E5C00E8D1E23E5D200C5CC7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C00E8C1E23E5D200C5CC7C /* AppDelegate.swift */; };
 		E5C00E8F1E23E5D200C5CC7C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C00E8E1E23E5D200C5CC7C /* SignInVC.swift */; };
 		E5C00E921E23E5D200C5CC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C00E901E23E5D200C5CC7C /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		E59FC3D01E2674C00015E02E /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		E59FC3D21E267C700015E02E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		E59FC3D51E27611A0015E02E /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		E5B53EB01E2918E6001930D7 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		E5C00E891E23E5D200C5CC7C /* Devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C00E8C1E23E5D200C5CC7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5C00E8E1E23E5D200C5CC7C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		E54C68EC1E23E9520055BCAC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E5B53EB01E2918E6001930D7 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				E59FC3D11E2674C00015E02E /* CircleView.swift in Sources */,
 				E59B3BFF1E251019007763F8 /* FancyField.swift in Sources */,
 				E5C00E8F1E23E5D200C5CC7C /* SignInVC.swift in Sources */,
+				E5B53EB11E2918E6001930D7 /* Post.swift in Sources */,
 				E59B3BFD1E250E96007763F8 /* RoundBtn.swift in Sources */,
 				E5C00E8D1E23E5D200C5CC7C /* AppDelegate.swift in Sources */,
 				E59FC3D61E27611A0015E02E /* DataServices.swift in Sources */,

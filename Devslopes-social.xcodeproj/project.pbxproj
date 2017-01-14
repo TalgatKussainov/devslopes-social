@@ -428,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69F3DBA31393581AB8B148D2 /* Pods-Devslopes-social.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Devslopes-social/Devslopes-social.entitlements";
 				DEVELOPMENT_TEAM = 28U48T6852;
@@ -443,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E6CE4C626AB70BA131C8AFF /* Pods-Devslopes-social.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Devslopes-social/Devslopes-social.entitlements";
 				DEVELOPMENT_TEAM = 28U48T6852;
